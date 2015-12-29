@@ -4,9 +4,9 @@ using System.Collections;
 public class CameraMovement : MonoBehaviour {
 
     // Camera movement speed
-    public float speed = 0.5f;
-    public float horzCamSpeed = 2f;
-    public float vertCamSpeed = 2f;
+    public float movementSpeed = 0.5f;
+    public float horizontalRotationSpeed = 2f;
+    public float verticalRotationSpeed = 2f;
 
     private float yaw = 0f;
     private float pitch = 0f;
@@ -24,8 +24,8 @@ public class CameraMovement : MonoBehaviour {
         front.Normalize();
 
 
-        yaw += horzCamSpeed * Input.GetAxis("Mouse X");
-        pitch -= vertCamSpeed * Input.GetAxis("Mouse Y");
+        yaw += horizontalRotationSpeed * Input.GetAxis("Mouse X");
+        pitch -= verticalRotationSpeed * Input.GetAxis("Mouse Y");
         transform.eulerAngles = new Vector3(pitch, yaw, 0f);
 
         Vector3 left = Vector3.Cross(front, Vector3.up);
@@ -33,27 +33,20 @@ public class CameraMovement : MonoBehaviour {
         //forward/back motion
         if (Input.GetKey(KeyCode.W))
         {
-            Debug.Log("hello!");
-            transform.Translate(speed * front);
+            transform.Translate(movementSpeed * front);
         }
         else if (Input.GetKey(KeyCode.S))
         {
-
-            Debug.Log("hello!");
-            transform.Translate(-speed * front);
+            transform.Translate(-movementSpeed * front);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-
-            Debug.Log("hello!");
-            transform.Translate(speed * left);
+            transform.Translate(movementSpeed * left);
         }
         else if (Input.GetKey(KeyCode.D))
         {
-
-            Debug.Log("hello!");
-            transform.Translate(-speed * left);
+            transform.Translate(-movementSpeed * left);
         }
 	}
 }
