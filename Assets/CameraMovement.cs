@@ -23,6 +23,8 @@ public class CameraMovement : MonoBehaviour {
         front.y = 0;
         front.Normalize();
 
+        Debug.Log(front);
+
 
         yaw += horizontalRotationSpeed * Input.GetAxis("Mouse X");
         pitch -= verticalRotationSpeed * Input.GetAxis("Mouse Y");
@@ -33,20 +35,20 @@ public class CameraMovement : MonoBehaviour {
         //forward/back motion
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(movementSpeed * front);
+            transform.Translate(movementSpeed * front, Space.World);
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(-movementSpeed * front);
+            transform.Translate(-movementSpeed * front, Space.World);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(movementSpeed * left);
+            transform.Translate(movementSpeed * left, Space.World);
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(-movementSpeed * left);
+            transform.Translate(-movementSpeed * left, Space.World);
         }
 	}
 }
