@@ -1,0 +1,1350 @@
+newmtl BottomsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 98.00
+newmtl DamagedHouseSG
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 18.00
+newmtl DoorSG
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.25 0.25 0.25
+Ns 7.61
+newmtl EyesSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 98.00
+newmtl HairSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 98.00
+newmtl HatsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 98.00
+newmtl ShoesSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 98.00
+newmtl TopsSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 98.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl townnew:default1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_chimney_mult
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_electric_pole_mult
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_electrical_wire
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_extras_mult
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_house_basemult
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_house_mult
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_lamp_mult
+illum 4
+Kd 0.16 0.15 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_light_mult
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_roof_mult
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_sidewalk_1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 0.75
+newmtl townnew:default_transformer
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_transformer_transformer
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_wall_front_mult
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_wall_side_mult
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl townnew:default_windows_mult
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ks 1.00 1.00 1.00
+Ns 1.00
+newmtl vaz_2106:Standardmater1
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater2
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater3
+illum 4
+Kd 0.90 0.90 0.90
+Ka 0.90 0.90 0.90
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater4
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.80 0.80 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater5
+illum 4
+Kd 0.70 0.60 0.70
+Ka 0.70 0.60 0.70
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater7
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater8
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater9
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater11
+illum 4
+Kd 0.40 0.40 0.40
+Ka 0.40 0.40 0.40
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater14
+illum 4
+Kd 0.40 0.40 0.40
+Ka 0.40 0.40 0.40
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater15
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.80 0.80 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater16
+illum 4
+Kd 0.40 0.40 0.40
+Ka 0.40 0.40 0.40
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater17
+illum 4
+Kd 0.70 0.90 1.00
+Ka 0.70 0.90 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater18
+illum 4
+Kd 0.90 0.90 0.90
+Ka 0.90 0.90 0.90
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater19
+illum 4
+Kd 0.80 0.60 0.40
+Ka 0.80 0.60 0.40
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater20
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.50 0.50 0.50
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater21
+illum 4
+Kd 0.60 0.60 0.60
+Ka 0.60 0.60 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater23
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater26
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater31
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.50 0.50 0.50
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater33
+illum 4
+Kd 1.00 0.50 0.20
+Ka 1.00 0.50 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater35
+illum 4
+Kd 0.90 0.90 1.00
+Ka 0.90 0.90 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater37
+illum 4
+Kd 0.40 0.40 0.40
+Ka 0.40 0.40 0.40
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater40
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater48
+illum 4
+Kd 1.00 0.30 0.30
+Ka 1.00 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater50
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.80 0.80 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater52
+illum 4
+Kd 1.00 0.80 0.20
+Ka 1.00 0.80 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater54
+illum 4
+Kd 0.60 0.00 0.00
+Ka 0.60 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater56
+illum 4
+Kd 0.10 0.10 0.10
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater63
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater65
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater67
+illum 4
+Kd 0.40 0.40 0.40
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater69
+illum 4
+Kd 0.40 0.40 0.40
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater77
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater79
+illum 4
+Kd 0.60 0.60 0.60
+Ka 0.60 0.60 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater81
+illum 4
+Kd 0.70 0.60 0.70
+Ka 0.70 0.60 0.70
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater83
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater85
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater87
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater89
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.80 0.80 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater91
+illum 4
+Kd 0.30 0.40 0.40
+Ka 0.30 0.40 0.40
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater93
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater95
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.50 0.50 0.50
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater97
+illum 4
+Kd 0.60 0.00 0.00
+Ka 0.60 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater99
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 1.00 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater101
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater103
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 0.80 0.80 0.80
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater105
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 0.60 0.60 0.60
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater107
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater109
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater111
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater113
+illum 4
+Kd 0.40 0.40 0.40
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater115
+illum 4
+Kd 0.30 0.30 0.30
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater117
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater119
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater121
+illum 4
+Kd 1.00 0.30 0.30
+Ka 1.00 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater123
+illum 4
+Kd 0.30 0.80 0.60
+Ka 0.30 0.80 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater125
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater127
+illum 4
+Kd 0.00 0.00 1.00
+Ka 0.00 0.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater129
+illum 4
+Kd 0.70 0.60 0.70
+Ka 0.70 0.60 0.70
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater131
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater133
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater135
+illum 4
+Kd 0.90 0.20 0.00
+Ka 0.90 0.20 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater137
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater139
+illum 4
+Kd 0.00 1.00 0.80
+Ka 0.00 1.00 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater141
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 0.80 0.80 0.80
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater143
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater145
+illum 4
+Kd 0.60 0.60 0.60
+Ka 0.60 0.60 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater147
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater149
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater151
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater153
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater155
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater157
+illum 4
+Kd 0.70 0.70 0.60
+Ka 0.70 0.70 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater159
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater161
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater163
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater165
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater167
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater169
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater171
+illum 4
+Kd 1.00 0.40 1.00
+Ka 1.00 0.40 1.00
+Tf 0.00 0.00 0.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater173
+illum 4
+Kd 0.40 0.40 0.40
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater175
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater177
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater179
+illum 4
+Kd 0.60 0.60 0.60
+Ka 0.60 0.60 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater181
+illum 4
+Kd 0.70 0.60 0.70
+Ka 0.70 0.60 0.70
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater183
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater185
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater187
+illum 4
+Kd 1.00 0.90 0.00
+Ka 0.90 0.90 0.90
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.30 0.30
+Ns 0.50
+newmtl vaz_2106:Standardmater189
+illum 4
+Kd 0.40 0.40 0.40
+Ka 0.40 0.40 0.40
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater191
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.50 0.50 0.50
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater193
+illum 4
+Kd 0.30 0.30 0.30
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater195
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater209
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater211
+illum 4
+Kd 0.80 0.80 0.80
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.30 0.30 0.30
+Ns 0.50
+newmtl vaz_2106:Standardmater213
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater215
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater217
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.80 0.80 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater219
+illum 4
+Kd 0.60 0.60 0.60
+Ka 0.60 0.60 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater221
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater223
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater225
+illum 4
+Kd 0.00 0.00 0.10
+Ka 0.00 0.00 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater227
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater229
+illum 4
+Kd 0.50 0.50 0.50
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater231
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater233
+illum 4
+Kd 0.70 0.70 0.70
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater235
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater237
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater239
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater241
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.80 0.80 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater243
+illum 4
+Kd 0.60 0.60 0.60
+Ka 0.60 0.60 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater245
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater247
+illum 4
+Kd 0.00 0.00 0.10
+Ka 0.00 0.00 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater249
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater251
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater253
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater255
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater257
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater259
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.80 0.80 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater261
+illum 4
+Kd 0.60 0.60 0.60
+Ka 0.60 0.60 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater263
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater265
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater267
+illum 4
+Kd 0.00 0.00 0.10
+Ka 0.00 0.00 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater269
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater271
+illum 4
+Kd 0.50 0.50 0.50
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater273
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater275
+illum 4
+Kd 0.60 0.60 0.60
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater277
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater279
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater281
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater283
+illum 4
+Kd 0.80 0.80 0.80
+Ka 0.80 0.80 0.80
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater285
+illum 4
+Kd 0.60 0.60 0.60
+Ka 0.60 0.60 0.60
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater287
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater289
+illum 4
+Kd 0.00 0.00 0.10
+Ka 0.00 0.00 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater291
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater293
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater295
+illum 4
+Kd 0.20 0.20 0.20
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater297
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater299
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater301
+illum 4
+Kd 1.00 1.00 1.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmater303
+illum 4
+Kd 0.10 0.10 0.10
+Ka 0.10 0.10 0.10
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Standardmaterial
+illum 4
+Kd 0.40 0.40 0.40
+Ka 0.40 0.40 0.40
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 0.50
+newmtl vaz_2106:Windows
+illum 4
+Kd 0.30 0.30 0.30
+Ka 1.00 1.00 1.00
+Tf 0.30 0.30 0.30
+Ni 1.00
+Ks 0.90 0.90 0.90
+Ns 0.50
