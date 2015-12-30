@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CameraMovement : MonoBehaviour {
+public class CameraMovement : MonoBehaviour
+{
 
     // Camera movement speed
     public float movementSpeed = 0.25f;
@@ -15,67 +16,116 @@ public class CameraMovement : MonoBehaviour {
 
     private bool camera_frozen = false;
 
-	// Use this for initialization
-	void Start () {
-	}
+    // Use this for initialization
+    private void Start()
+    {
+    }
 
-	void freezeCamera() {
-		camera_frozen = true;
-	}
-	
-	void unfreezeCamera() {
-		camera_frozen = false;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    private void freezeCamera()
+    {
+        camera_frozen = true;
+    }
 
-        if (Input.GetKeyDown(KeyCode.Space)) {
-        	if (camera_frozen) unfreezeCamera();
-        	else freezeCamera();
+    private void unfreezeCamera()
+    {
+        camera_frozen = false;
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+
+        //get a forward orientation vector that is parallel to the ground.
+        Vector3 front = transform.forward;
+        front.y = 0;
+        front.Normalize();
+
+        //Debug.Log(front);
+
+
+        yaw += horizontalRotationSpeed*Input.GetAxis("Mouse X");
+        pitch -= verticalRotationSpeed*Input.GetAxis("Mouse Y");
+        transform.eulerAngles = new Vector3(pitch, yaw, 0f);
+
+        Vector3 left = Vector3.Cross(front, Vector3.up);
+
+        //forward/back motion
+        if (Input.GetKey(KeyCode.W))
+        {
+            movementSpeed += 0.01f;
+            movementSpeed = Mathf.Min(maxMovementSpeed, movementSpeed);
+            transform.Translate(movementSpeed*front, Space.World);
         }
-        
-        if (!camera_frozen) {
-	        //get a forward ori	entation vector that is parallel to the ground.
-	        Vector3 front = transform.forward;
-	        front.y = 0;
-	        front.Normalize();
+        else
+        {
+            movementSpeed = defaultMovementSpeed;
+            if (Input.GetKey(KeyCode.S))
+            {
+                transform.Translate(-movementSpeed*front, Space.World);
+            }
 
-	        //Debug.Log(front);
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                if (camera_frozen) unfreezeCamera();
+                else freezeCamera();
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                movementSpeed = defaultMovementSpeed;
+                transform.Translate(movementSpeed*left, Space.World);
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                movementSpeed = defaultMovementSpeed;
+                transform.Translate(-movementSpeed*left, Space.World);
+            }
+
+            if (!camera_frozen)
+            {
+                //get a forward ori	entation vector that is parallel to the ground.
+                front = transform.forward;
+                front.y = 0;
+                front.Normalize();
+
+                //Debug.Log(front);
 
 
-	        yaw += horizontalRotationSpeed * Input.GetAxis("Mouse X");
-	        pitch -= verticalRotationSpeed * Input.GetAxis("Mouse Y");
-	        transform.eulerAngles = new Vector3(pitch, yaw, 0f);
+                yaw += horizontalRotationSpeed*Input.GetAxis("Mouse X");
+                pitch -= verticalRotationSpeed*Input.GetAxis("Mouse Y");
+                transform.eulerAngles = new Vector3(pitch, yaw, 0f);
 
-	        Vector3 left = Vector3.Cross(front, Vector3.up);
+                left = Vector3.Cross(front, Vector3.up);
 
-	        //forward/back motion
+                //forward/back motion
 
 
-	        if (Input.GetKey(KeyCode.W))
-	        {
-	            movementSpeed += 0.01f;
-	            movementSpeed = Mathf.Min(maxMovementSpeed, movementSpeed);
-	            transform.Translate(movementSpeed * front, Space.World);
-	        }
-	        else {
-	            movementSpeed = defaultMovementSpeed;
-	            if (Input.GetKey(KeyCode.S)){
-	                transform.Translate(-movementSpeed * front, Space.World);
-	            }
-	        }
+                if (Input.GetKey(KeyCode.W))
+                {
+                    movementSpeed += 0.01f;
+                    movementSpeed = Mathf.Min(maxMovementSpeed, movementSpeed);
+                    transform.Translate(movementSpeed*front, Space.World);
+                }
+                else
+                {
+                    movementSpeed = defaultMovementSpeed;
+                    if (Input.GetKey(KeyCode.S))
+                    {
+                        transform.Translate(-movementSpeed*front, Space.World);
+                    }
+                }
 
-	        if (Input.GetKey(KeyCode.A))
-	        {
-	            movementSpeed = defaultMovementSpeed;
-	            transform.Translate(movementSpeed * left, Space.World);
-	        }
-	        else if (Input.GetKey(KeyCode.D))
-	        {
-	            movementSpeed = defaultMovementSpeed;
-	            transform.Translate(-movementSpeed * left, Space.World);
-	        }
-    	}
-	}
+                if (Input.GetKey(KeyCode.A))
+                {
+                    movementSpeed = defaultMovementSpeed;
+                    transform.Translate(movementSpeed*left, Space.World);
+                }
+                else if (Input.GetKey(KeyCode.D))
+                {
+                    movementSpeed = defaultMovementSpeed;
+                    transform.Translate(-movementSpeed*left, Space.World);
+                }
+            }
+        }
+    }
 }

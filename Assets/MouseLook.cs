@@ -5,7 +5,7 @@ using System.Collections;
 public class MouseLook : MonoBehaviour {
 
     public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
-    public CameraMovement.RotationAxes axes = CameraMovement.RotationAxes.MouseXAndY;
+    public RotationAxes axes = RotationAxes.MouseXAndY;
     public float sensitivityX = 15F;
     public float sensitivityY = 15F;
     public float minimumX = -360F;
@@ -23,7 +23,7 @@ public class MouseLook : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (axes == CameraMovement.RotationAxes.MouseXAndY)
+        if (axes == RotationAxes.MouseXAndY)
         {
             // Read the mouse input axis
             rotationX += Input.GetAxis("Mouse X") * sensitivityX;
@@ -34,7 +34,7 @@ public class MouseLook : MonoBehaviour {
             Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
             transform.localRotation = originalRotation * xQuaternion * yQuaternion;
         }
-        else if (axes == CameraMovement.RotationAxes.MouseX)
+        else if (axes == RotationAxes.MouseX)
         {
             rotationX += Input.GetAxis("Mouse X") * sensitivityX;
             rotationX = ClampAngle(rotationX, minimumX, maximumX);
